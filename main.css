@@ -1,0 +1,340 @@
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+/*INICIO*/
+
+body{
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal{
+    font-size: 40px;
+    padding-bottom: 0px;
+}
+
+.principal span{
+    color: #F06D21;
+    font-weight: 900;
+}
+
+.principal img{
+    padding-bottom: 40px;
+}
+
+.principal input{
+    font-size: 20px;
+    color: #fff;
+    padding: 16px 41px;
+    border-radius: 60px;
+    background: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border: none;
+    margin-top: 150px;
+    cursor: pointer;
+    transition: 0.8s;
+    
+}
+
+.principal input:hover{
+    font-size: 20px;
+    color: #000;
+    padding: 15px 40px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    margin-top: 150px;
+    background: #f9d423;
+    
+}
+
+.jero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.jero h2{
+    padding: 20px;
+}
+
+.jero span{
+    color: #F06D21;
+    font-size: 40px;
+}
+
+
+/*SECTION*/
+
+section{
+    background: #fff;
+}
+
+
+.intro{
+    max-width: 1000px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 130px 10px;
+    color: #000;
+}
+
+.intro span{
+    color: #F06D21;
+    font-size: 35px;
+}
+
+.gris{
+    color: #5A5958;
+}
+
+/*VIDEO*/
+
+.fontvideo{
+    padding: 80px 0;
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.video{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.video video{
+    border-radius: 30px;
+}
+
+.video h1{
+    font-size: 40px;
+    color: #5A5958;
+}
+
+.buton2{
+    font-size: 20px;
+    color: #fff;
+    padding: 16px 41px;
+    border-radius: 60px;
+    background: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border: none;
+    cursor: pointer;
+    transition: 0.8s;
+    text-decoration: none;
+}
+
+.buton2:hover{
+    font-size: 20px;
+    color: #000;
+    padding: 15px 40px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    background: #f9d423;
+}
+
+
+/*RECOMENDACIONES*/
+
+.portada2{
+   background: #fff;
+}
+
+.recomendaciones{
+    max-width: 800px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 80px 10px;
+    color: #000;
+}
+
+.recomendaciones span{
+    color: #F06D21;
+}
+
+#Array{
+    text-align: left;
+    padding: 40px 0;
+    color: #5A5958;
+    font-size: 23px;
+}
+
+#Array2{
+    text-align: left;
+    color: #5A5958;
+    font-size: 23px;
+}
+
+/*FORMULARIO*/
+
+.registro{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+.formulario{   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.formulario h2{
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    
+}
+
+.formulario form input{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.formulario form input:focus{
+   outline: 1px solid #5A5958;
+}
+
+.formulario form button{
+    font-size: 16px;
+    padding: 10px 20px;
+    background: none;
+    border: 2px solid #fff;   
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.formulario form button:hover{
+    padding: 10px 20px;
+    background: #fff;
+    border: 2px solid #fff;   
+    color: #5A5958;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer{
+   background: #fff;
+}
+
+.footer2{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.footer2 h4{
+    font-weight: 200;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.redes div{
+   padding: 18px 8px 0px 8px;
+}
+
+
+
+
+
+
+@media(max-width:950px){
+    .container{
+        padding: 50px 0;
+        flex-direction: column;
+        
+    }
+
+    .principal{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .principal img{
+        width: 300px;
+    }
+
+    .jero{
+        display: none;
+    }
+
+    .principal input{
+        margin-top: 50px;
+    }
+
+    /*SECTION*/
+
+    .intro{
+        padding: 90px 10px;
+    }
+
+    /*VIDEO*/
+
+    .video{
+        flex-direction: column;
+    }
+
+    .video video{
+        width: 400px;
+        
+    }
+
+    .video input{
+        margin-top: 60px;
+    }
+
+    /*FORMULARIO*/
+
+    .registro{
+        height: 60vh;
+    }
+}
+
+
+
+
+
+
+
