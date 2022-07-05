@@ -247,6 +247,15 @@ section{
     cursor: pointer;
 }
 
+#politica{
+    color: #fff;
+    font-size: 15px;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
 /*FOOTER*/
 
 footer{
